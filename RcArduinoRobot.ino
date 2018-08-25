@@ -31,7 +31,7 @@ void loop() {
   ch2 = pulseIn(11, HIGH, 25000); 
   ch3 = pulseIn(12, HIGH, 25000);
 x= map(ch1, 996, 1975, 0, 255);
-y V = map(ch3, 993,1983,0,255);
+y= map(ch3, 993,1983,0,255);
 Serial.println(ch1);
 
 if(y < 10)
